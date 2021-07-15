@@ -7,6 +7,7 @@ the-turk-flamoji:
     custom_emojis_section:
       edit_emoji:
         saved_message: '=> core.admin.settings.saved_message'
+        submit_button: '=> core.ref.save_changes'
       emoji_list:
         load_more_button: '=> core.forum.post_stream.load_more_button'
     settings:
@@ -23,4 +24,14 @@ the-turk-flamoji:
   forum:
     emoji-button:
       categories:
+        activities: '=> the-turk-flamoji.ref.emoji_categories.activities'
+        animals: '=> the-turk-flamoji.ref.emoji_categories.animals'
+        custom: '=> the-turk-flamoji.ref.emoji_categories.custom'
+        flags: '=> the-turk-flamoji.ref.emoji_categories.flags'
         food: '=> the-turk-flamoji.ref.emoji_categories.food'
+        objects: '=> the-turk-flamoji.ref.emoji_categories.objects'
+        people: '=> the-turk-flamoji.ref.emoji_categories.people'
+        recents: '=> the-turk-flamoji.ref.emoji_categories.recents'
+        smileys: '=> the-turk-flamoji.ref.emoji_categories.smileys'
+        symbols: '=> the-turk-flamoji.ref.emoji_categories.symbols'
+        travel: '=> the-turk-flamoji.ref.emoji_categories.travel'
